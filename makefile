@@ -22,7 +22,7 @@ serve: $(OUTDIR)$(ROOT) $(OUTDIR)$(ROOT)reveal
 
 update: $(WEBSITE)$(ROOT)
 	git -C "$(WEBSITE)" add ".$(ROOT)"
-	git -C "$(WEBSITE)" commit -m "update presentations"
+	git -C "$(WEBSITE)" commit -m "update class"
 	git -C "$(WEBSITE)" push
 
 clean:
