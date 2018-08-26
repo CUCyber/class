@@ -1,7 +1,7 @@
-CU Cyber Presentations
-======================
+Cybersecurity Seminar Class Presentations
+=========================================
 
-In this repository are the markdown sources to presentations given by CU Cyber. Up-to-date builds of the presentations are available at [https://cucyber.net/resources.html](https://cucyber.net/resources.html).
+In this repository are the markdown sources to presentations given by the cybersecurity seminar at Clemson.
 
 
 ## Dependencies
