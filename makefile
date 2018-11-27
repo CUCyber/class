@@ -30,7 +30,7 @@ clean:
 
 $(OUTDIR)$(ROOT): $(SOURCES)
 	mkdir -p $(OUTDIR)$(ROOT)
-	for file in $?; do \
+	for file in $(SOURCES); do \
 		rm -rf "$(OUTDIR)$(ROOT)$${file%.md}"; \
 		"./$(GENERATE)" -i "$${file%.md}" -r "$(ROOT)" -o "$(THEME)" -t "$(TEMPLATE)" -a "$${file%.md}.res" "$${file}" "$(OUTDIR)$(ROOT)$${file%.md}"; \
 	done
