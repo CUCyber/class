@@ -1,4 +1,4 @@
-## Cybersecurity Competition Training Seminar
+## Cybersecurity Competition Training
 
 CPSC 2810 - Section 2
 
@@ -13,9 +13,8 @@ Visit [cucyber.net](https://cucyber.net/) to find these presentations and more o
 
 ## whoami
 
-* Nick Bulischeck
-* Senior CS Major
-* President of CU Cyber
+![Crowdstrike](crowdstrike.png)
+
 * NSA, NexDefense Inc., Rheem Manufacturing, Authomate Inc.
 
 
@@ -23,9 +22,8 @@ Visit [cucyber.net](https://cucyber.net/) to find these presentations and more o
 ## CPSC 2810 - Section 2
 
 * 14 Week Course
-* 1 Credit Hour
-* Lectures (Presentations) and Red vs. Blue Exercises
-* Technically demanding, but extremely rewarding
+* 2 Credit Hours
+* Lectures, Labs, and Red vs. Blue Exercises
 
 
 ### Reasons for Staying Enrolled
@@ -34,9 +32,9 @@ Visit [cucyber.net](https://cucyber.net/) to find these presentations and more o
 * You want to learn more about cybersecurity
 * You want to learn more beyond Clemson's cybersecurity curriculum
 * You want to improve your ability to:
-	- succeed in the classroom
-	- in your future project/research work
-	- in job interviews.
+    - succeed in the classroom
+    - in your future project/research work
+    - in job interviews.
 
 
 
@@ -45,53 +43,59 @@ Visit [cucyber.net](https://cucyber.net/) to find these presentations and more o
 
 ### Topics
 
-1. Week 1: Course Introduction
-2. Week 2: Intro to Linux & Linux Security
-3. Week 3: Intro to Windows & Windows Security
-4. Week 4: Intro to Networking/Network Security Practices
-5. Week 5: Business Management
-6. Week 6: Intro to Docker and Secure Service Setup
+* Week 1: Course Introduction
+* Week 2: Intro to Linux & Linux Security
+* Week 3: Hackpack
+* Week 4: Intro to Networking
+* Week 5: Networking Security
+* Week 6: Red vs. Blue: Network from the 2018 SECCDC Qualifier
 
 
 ### Topics (cont.)
 
-7. Week 7: Red vs. Blue: Network from the 2018 SECCDC Qualifier
-8. Week 8: Exercise Review and Case Study: DirtyCoW
-9. Week 9: In-depth Linux Security
-10. Week 10: Red vs. Blue: Network from the 2018 SECCDC Regional
-11. Week 11: Exercise Review and Case Study: EternalBlue
-12. Week 12: In-depth Windows Security
+* Week 7: Red vs. Blue Review
+* Week 8: Intro to Windows and Windows Security
+* Week 9: Secure Service Setup
+* Week 10: Intro to Docker
+* Week 11: Red vs. Blue: Network from the 2018 SECCDC Qualifier
+* Week 12: Advanced Techniques
 
 
 ### Topics (cont.)
 
-13. Week 13: Red vs. Blue: Network from the 2018 PCDC competition
-14. Week 14: Exercise Review and Course Wrap-up
+* Week 13: Pentesting Methodology
+* Week 14: Red vs. Blue: Network from the 2018 SECCDC Qualifier
+
+
+### Hackpack
+
+* This will be a semester-long project.
+* You will be creating your own team hackpack.
+
+
+#### Get Into Groups of 3
+
 
 
 ### Grading
 
-* 55% - Lecture Attendance and Participation
-* 45% - Red vs. Blue Competition and Review (3)
+* 30% Red vs. Blue Report (3)
+* 20% Final Hackpack Report
+* 20% Labs
+* 20% Homework
+* 10% Quizzes
 
 
 ### Grading Scale
 
 | Scale |
 |:-----:|
-| A - 90-100 |
-| B - 80-89.99 |
-| C - 70-79.99 |
-| D - 60-69.99 |
-| F - below 60 |
-||
+|A: ≥ 90|
+|B: 80 — 89|
+|C: 70 — 79|
+|D: 60 — 69|
+|F: ≤ 60|
 
-
-### Attendance
-
-* Attendance is critical
-* Roll will be taken for each lecture
-* It's a massive part of your grade
 
 
 ### Red vs. Blue Competitions
@@ -101,24 +105,8 @@ Visit [cucyber.net](https://cucyber.net/) to find these presentations and more o
 
 
 
-## Thank you
-
-* Max - TA #2
-* CU Cyber Officers
-* Dr. Feaster
-* CPSC Department
-
-
-
-## Icebreaker
-
-1. Name
-2. Experience with sysadmin or competitions
-3. What do you hope to get out of this class
-
-
-
 ## Our History
 
 * PCDC
 * CCDC
+* DoE Cyberforce
