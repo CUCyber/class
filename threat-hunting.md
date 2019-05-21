@@ -21,6 +21,7 @@ Visit [cucyber.net](https://cucyber.net/) to find these presentations and more o
 * Sample Threat Hunt
 
 
+
 ## What is Threat Hunting?
 
 Note:
@@ -95,6 +96,7 @@ Note:
 Note:
 * You really never "reject" a hypothesis, but just say that you don't have enough information
 * Example hypothesis: "Hackers are creating .bashrc backdoors on our network"
+
 
 
 ### Methodology
