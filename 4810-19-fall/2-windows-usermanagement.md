@@ -47,6 +47,12 @@ If you need a hint, the Control Panel is a good place to start
 
 
 
+## User Management
+
+Open lusrmgr.msc
+
+
+
 ### How To Add a User
 
 ![add-user](add-user.png)

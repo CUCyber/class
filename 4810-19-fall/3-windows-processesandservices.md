@@ -86,13 +86,13 @@ Why is it good to know what services are on your computer?
 
 
 
-### How to start a service
+### Get to Services MSC
 
-![start-service](start-service.png)
+![services-msc](services-msc.png)
 
 
 
-### How to stop a service
+### How to start and stop a service
 
 ![stop-service](stop-service.png)
 
