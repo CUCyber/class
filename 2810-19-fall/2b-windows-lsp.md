@@ -1,6 +1,6 @@
 ## Windows Local Security Policy
 
-CPSC 4810
+CPSC 2810
 
 
 
