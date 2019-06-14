@@ -87,12 +87,12 @@ Note:
  - Restart your computer
  - At the GRUB boot screen, press `e` on the entry you want to boot into
  - On the line that says "linux", add `init=/bin/bash` and set `ro` to `rw`
- - Boot into your machine
+ - Boot into your machine with `ctrl+x` or `F10`
 
 
 #### /proc
 
-* Explain the proc file system
+* When running the `strace` command
  - As it relates to ps aux/top
  - Exe
  - File descriptors
