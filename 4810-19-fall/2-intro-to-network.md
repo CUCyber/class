@@ -43,6 +43,7 @@ Can anyone summarize NAT?
 * IP Addresses - A suite of protocols for identification and addressing of connected computers
   - Example: 192.168.1.5
   - Example: 130.127.151.120
+  - Example: ipv6 address
 
 ![](ipheader.png)
 
@@ -70,6 +71,13 @@ Can anyone summarize NAT?
 
 
 ## Network Segmentation
+
+!()[seccdcq.png]
+
+
+## Network Segmentation
+
+TODO - Benefits from doc
 
 
 ## Home NAT
