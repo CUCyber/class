@@ -80,9 +80,14 @@ Note:
  - Renames `/etc/nshadow` to `/etc/shadow`
 
 
-#### Single-User Mode
+#### Single User Mode
 
-* Demonstrate and explain how to get into single user mode 
+* Single user mode is a very minimal environment where only the system administrator is using the machine and as few system services, including logins, as possible are running
+* To access single user mode when using GRUB
+ - Restart your computer
+ - At the GRUB boot screen, press `e` on the entry you want to boot into
+ - On the line that says "linux", add `init=/bin/bash` and set `ro` to `rw`
+ - Boot into your machine
 
 
 #### /proc
@@ -111,11 +116,13 @@ Note:
 * Students must be able to log into the machine under a normal boot after they have changed the password
 
 
+
 ### Assessment
 
 Note:
 * Give students a set of commands, users, and intervals at which they should run
 * Have students create the appropriate cron entry for each command
+
 
 
 ### Questions?
