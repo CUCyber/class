@@ -1,6 +1,6 @@
-## Introduction to Linux and the Linux Command Line
+## Intro to Networking
 
-CPSC 2810
+CPSC 4810
 
 
 
