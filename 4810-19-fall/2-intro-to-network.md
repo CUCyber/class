@@ -1,6 +1,6 @@
 ## Introduction to Linux and the Linux Command Line
 
-CPSC 2810
+CPSC 4810
 
 
 
