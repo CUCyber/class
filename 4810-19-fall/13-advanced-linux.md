@@ -99,9 +99,6 @@ Note:
   + Explain what file descriptors are
 
 
-#### The Crontab
-
-
 
 ### Activity
 
