@@ -1,0 +1,121 @@
+## Cybersecurity Competition Training
+
+CPSC 4810
+
+
+
+### Introduction Questions
+
+Why might we need to recover a password?
+
+
+
+### Introduction Questions
+
+Who knows how to recover a password on Linux?
+
+
+
+### Explore
+
+1. Get into groups of two
+2. Run the following command to set the immutable flag on `/etc/shadow`
+ - `chattr +i /etc/shadow`
+3. Attempt to change the password for any user on the system
+4. Use the `strace` command to investigate what might be happening
+
+
+
+### Explain
+
+
+#### File Immutability
+
+* The `chattr` command allows you to change file *attributes* on a Linux file system
+* One common usage of `chattr` is to use it with the `+i` flag - this makes the file immutable
+* Immutable means "unchanging over time or unable to be changed"
+* Not even the root user is able to alter an immutable file - the flag must be removed first
+
+Note:
+* Why might you want to set a file to be immutable?
+* What could happen if an important file like /etc/shadow is made immutable?
+
+
+#### Linux Pluggable Authentication Module (PAM)
+
+* PAM provides dynamic authentication support for applications and services on Linux
+* Authentication is separated into four independent management groups
+
+
+##### PAM Management Groups
+
+* Account Modules: Check that the specified account is a valid authentication target
+* Authentication Modules: Verify the user's identity
+* Password Modules: Update passwords and enforce password policies
+* Session Modules: Define actions that are performed at the beginning and end of sessions
+
+Note:
+* Account module checks may include conditions like account expiration, time of day, and that the user has access to the requested service
+* Authentication modules may request and check a password or other secret
+* Sessions start after a user has successfully authenticated
+
+
+##### PAM and Passwords
+
+* When you run the `passwd` command to reset a password, PAM
+ - Checks to see if you are resetting your own password or someone elses
+  + If you are resetting your own, prompts your current password to auth
+  + If you are resetting someone elses, checks if you are effectively root
+ - Reads the new password from your input
+ - Checks to see if it conforms to the current password policy
+
+
+##### PAM and Passwords (Cont.)
+
+* When you run the `passwd` command to reset a password, PAM
+ - Creates a file called `/etc/nshadow`
+ - Reads `/etc/shadow`
+ - Modifies its contents
+ - Writes it to `/etc/nshadow`
+ - Renames `/etc/nshadow` to `/etc/shadow`
+
+
+#### Single-User Mode
+
+* Demonstrate and explain how to get into single user mode 
+
+
+#### /proc
+
+* Explain the proc file system
+ - As it relates to ps aux/top
+ - Exe
+ - File descriptors
+  + Explain what file descriptors are
+
+
+#### The Crontab
+
+
+
+### Activity
+
+* Get back into groups of two
+* Successfully recover the root password
+* Use the /proc filesystem to extract a running binary
+ - Run the binary yourself to recover the hidden message
+
+
+Note:
+* Students must successfully change the password using single user mode
+* Students must be able to log into the machine under a normal boot after they have changed the password
+
+
+### Assessment
+
+Note:
+* Give students a set of commands, users, and intervals at which they should run
+* Have students create the appropriate cron entry for each command
+
+
+### Questions?

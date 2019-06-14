@@ -3,6 +3,7 @@
 CPSC 4810
 
 
+
 ### Introduction Questions
 
 What are the first things a red team will try to do when they attack your computers?
