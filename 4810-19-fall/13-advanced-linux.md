@@ -92,11 +92,29 @@ Note:
 
 #### /proc
 
-* When running the `strace` command
- - As it relates to ps aux/top
- - Exe
- - File descriptors
-  + Explain what file descriptors are
+* When running the `strace` command you were inspecting the system calls of a running process
+* You should recall that we can see all of a Linux system's running processes with `ps aux` or `top`
+* What we are seeing from `ps aux` is the output of what is called the *proc* filesystem
+* The *proc* filesystem contains information about running processes and the kernel
+* More precisely, it is a pseudo-filesystem which provides an interface to kernel data structures
+
+
+##### /proc Entries
+
+* If you run `ls` on `/proc`, you will predominantly see a lot of directories with numbers for their names
+* This directory listing shows the directories of all running processes
+* Within these folders, files contain meta information about each running processes
+* Two important items within each folder are
+ - `/proc/<pid>/exe` - Executable path
+ - `/proc/<pid>/fd/` - File descriptors
+
+
+##### /proc Entries (Cont.)
+
+* `/proc/<pid>/exe` contains a symbolic link to the process' executable
+* `/proc/<pid>/fd/` contains a symbolic link to all open file descriptors used by the process
+* **By using the `cat` command and redirecting the output to another file, you can restore entire files (executables, open file descriptors, etc.) from the process.**
+ - `cat /proc/1234/exe > /root/executable.bin`
 
 
 
@@ -117,8 +135,8 @@ Note:
 ### Assessment
 
 Note:
-* Give students a set of commands, users, and intervals at which they should run
-* Have students create the appropriate cron entry for each command
+* 
+* 
 
 
 
