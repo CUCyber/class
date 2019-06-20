@@ -33,7 +33,7 @@ Who knows how to create and enforce a password policy on Linux?
 ## Activity
 
 * Get into pairs
-* List all users on the system that begin with the letter "R"
+* List all users on the system that begin with the letter "r"
 * List all of the groups that the user "ryan" is a part of.
 * Add a user named "frederick and set his password to "freder1ck-r0cks"
 
@@ -48,5 +48,84 @@ Who knows how to create and enforce a password policy on Linux?
 ### Where does the system store users?
 
 /etc/passwd
+
+* Username
+* User [has = (!)] or [does not have = (\*)] a password
+* User ID (UID)
+* Group ID (GID)
+* Home Directory
+* Shell
+
+![](passwd.png)
+
+
+### Where are the passwords for users stored?
+
+/etc/shadow
+
+* Username
+* Encrypted Password
+* Days since password was changed
+* Days before password can be changed
+* Days after which password must be changed
+* Days to warn user of expiring password
+* Days after expired password that the account is disabled
+* Days that an account has been disabled
+
+Note: 
+An easy way to check if a user has a password set is to take a peek at the encrypted password field of /etc/shadow
+
+## Adding and Removing Users
+
+
+### Adding Users
+
+To add users we use the `useradd` command. See `man useradd` for additional options.
+
+Example: 
+
+`useradd -m -s /bin/bash johnny`
+
+* `-m` = Create a home directory in `/home/` for this user
+* `-s /bin/bash` = Set the user's default shell to /bin/bash
+* Note: This user will NOT have a password set
+
+
+### Removing Users
+
+`userdel -r johnny`
+
+* The `-r` flag removes the home directory of the user
+
+
+### Adding a user to a group
+
+This is a weird one that always trips people up.
+
+`usermod -a -G wheel johnny`
+
+* `-a` = append this group to their list of groups
+* `-G wheel` = this is the group we want to add them to
+
+
+
+## Sudo
+
+
+### Sudo
+
+Sudo allows you to run commands as the root user (administrator)
+
+`whoami` -> What's the result?
+
+`sudo whoami` -> What about now?
+
+
+### Sudoers Groups
+
+Users in the wheel
+
+* On some systems it may be the sudo group instead of wheel. 
+  - Check your configuration!
 
 
