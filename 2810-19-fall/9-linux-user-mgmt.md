@@ -108,6 +108,20 @@ This is a weird one that always trips people up.
 * `-G wheel` = this is the group we want to add them to
 
 
+### Viewing the groups for a user
+
+groups <user>
+
+
+### Viewing all groups on the system
+
+cat /etc/group
+
+
+### Viewing all members of a group
+
+sudo lid -g <group>
+
 
 ## Sudo
 
@@ -123,9 +137,36 @@ Sudo allows you to run commands as the root user (administrator)
 
 ### Sudoers Groups
 
-Users in the wheel
+Users in the wheel group
 
+* In the default configuration on most systems, the wheel group is permitted to use sudo.
 * On some systems it may be the sudo group instead of wheel. 
   - Check your configuration!
+
+
+### Sudoers Configuration
+
+* /etc/sudoers
+
+![](sudoers.png)
+
+
+
+## Password Policies 
+
+
+### What makes a good password policy?
+
+
+### Installation
+
+sudo apt update
+
+sudo apt install libpam-pwquality
+
+
+### Changing Password Policy
+
+sudo vim /etc/login.defs
 
 
