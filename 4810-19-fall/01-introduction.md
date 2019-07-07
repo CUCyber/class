@@ -1,6 +1,6 @@
 ## Cybersecurity Competition Training
 
-CPSC 2810
+CPSC 4810
 
 
 
@@ -130,6 +130,7 @@ Note:
 * Example of users "Documents" folder. You shouldn't be able to access another user's folder
 * If you only learn one thing from the class, this is it.
 * Everything else in the course is based on PLP
+
 
 
 ### How to Access Lab
