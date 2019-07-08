@@ -163,7 +163,7 @@ Users in the wheel group
 
 sudo apt update
 
-sudo apt install libpam-pwquality
+sudo apt install libpam-cracklib
 
 
 ### Changing Password Policy
