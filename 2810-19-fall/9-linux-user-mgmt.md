@@ -56,6 +56,7 @@ Who knows how to create and enforce a password policy on Linux?
 * Home Directory
 * Shell
 
+
 ![](passwd.png)
 
 
@@ -162,7 +163,7 @@ Users in the wheel group
 
 sudo apt update
 
-sudo apt install libpam-pwquality
+sudo apt install libpam-cracklib
 
 
 ### Changing Password Policy
