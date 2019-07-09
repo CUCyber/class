@@ -81,17 +81,38 @@ Note:
 ### Incident Response
 
 * Investigation
+* Identification
 * Remediation
+* Recovery
 * Report
 
 Note:
 * Investigation - Find out what attackers have done by checking things like bash history, event logs, etc
-* Remediation - Fix broken things
-* Report - Create a report of what was broken so that it won’t happen again
+* Identification - Identify issue
+* Remediation - Fix issue
+* Recovery - Recover any lost data
+* Report - Create a report of issue so that it won’t happen again
+
+
+### Incident Response Form
+
+![IR Form](https://www.smartsheet.com/sites/default/files/IC-Incident-Report.jpg)
+
+Note:
+* Open in browser since it's too small to fit on page
 
 
 
 ### Defense in Depth
+
+* Multiple layers of security are used to stop attackers at every level
+* Protect along all tactics
+* "Assumed breach"
+
+Note:
+* Some organizations only want to do phishing since they think initial access is important
+* Assumed breach means that we should assume there is already an operator in our network
+* How can we make their life hell?
 
 
 

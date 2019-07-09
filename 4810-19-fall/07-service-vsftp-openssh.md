@@ -27,9 +27,9 @@ CPSC 4810
   * Upload a file
 3. SSH
   * Get process listing of remote machine
-4. SCP
-  * Get a file
-  * Upload a file
+4. Show instructor and get elevated access
+5. Add your public SSH key to the machine
+6. Identify misconfigurations with the service
 
 
 
@@ -88,7 +88,7 @@ PermitRootLogin yes/no/without-password
 ```
 
 Note:
-* without-password option means you can only log in with private keys
+* without-password option means you can only log in with SSH keys
 * You may want to change this to `no` if you have console access just to be safe
 
 
@@ -103,7 +103,7 @@ PermitEmptyPasswords yes/no
 
 Note:
 * Doesn't let people log in with empty passwords
-* Just useful in case
+* You should be changing all user's passwords, but just in case
 
 
 
