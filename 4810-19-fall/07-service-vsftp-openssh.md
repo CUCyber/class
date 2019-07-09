@@ -27,9 +27,8 @@ CPSC 4810
   * Upload a file
 3. SSH
   * Get process listing of remote machine
-4. Show instructor and get elevated access
-5. Add your public SSH key to the machine
-6. Identify misconfigurations with the service
+4. Add your public SSH key to the machine
+5. Identify misconfigurations with the service
 
 
 
