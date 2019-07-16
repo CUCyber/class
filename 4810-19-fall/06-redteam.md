@@ -41,6 +41,7 @@ Note:
 * Take 20 minutes to review notes
 
 
+
 ### Tactics, Techniques, and Procedures
 
 * We categorize actions hackers do into TTPs
