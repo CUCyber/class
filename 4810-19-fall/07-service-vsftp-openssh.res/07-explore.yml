@@ -4,7 +4,7 @@
   tasks:
     - name: set facts
       set_fact:
-        username: student1
+        username: student
         password: CUCyberDefaultPassword123
 
     - name: add universe repository for bionic

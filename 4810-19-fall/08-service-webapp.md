@@ -37,9 +37,8 @@ How does a custom webapp differ from Apache or Nginx?
 ### Explore
 
 1. Get into groups of two
-2. Given three websites, identify which is Tomcat, Nginx, and a Flask webserver
-3. Use metasploit to exploit Apache Struts
-4. Find a backdoor in Nginx root directory
+2. Given two websites, identify which is Apache and which is custom
+3. Find a backdoor in the Apache
 
 
 
