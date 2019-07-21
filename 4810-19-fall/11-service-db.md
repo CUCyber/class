@@ -32,7 +32,7 @@ What language is used to query data from MySQL?
 
 
 
-### How to do lab
+### Lab Tutorial
 
 * Get All Users: `SELECT * FROM products`
 * Get Usernames: `SELECT name FROM products`
