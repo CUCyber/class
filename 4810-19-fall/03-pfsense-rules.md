@@ -1,3 +1,30 @@
+## pfSense Rules
+
+CPSC 4810
+
+
+
+### Introduction Questions
+
+What is a firewall rule?
+
+
+### Introduction Questions
+
+Why are firewall rules on the router important?
+
+
+### Introduction Questions
+
+What happens if the router goes offline?
+
+
+### Introduction Questions
+
+If red team controls our firewall what's the worst they can do without just turning it off?
+
+
+
 ## Interfaces
 
 ### Interfaces
