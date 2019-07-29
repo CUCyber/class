@@ -60,6 +60,7 @@ Navigate to Diagnostics -> States
 
 View connections to the firewall interfaces. Management interfaces are normally on ports 80, 443, 22, and 23, but backdoors could be on any port!
 
+
 ### Audit users
 
 Navigate to System -> User Manager
