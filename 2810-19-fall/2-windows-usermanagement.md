@@ -36,11 +36,11 @@ Default passwords
 
 ### Explore
 
-1. Get into groups of two
-2. Log into lab environment
+1. Get into groups of two (One Windows)
+2. Use one computer between two people
 3. Add a user 
-4. Remove user
-5. Change user password
+4. Change user password
+5. Remove user
 
 Note:
 If you need a hint, the Control Panel is a good place to start
