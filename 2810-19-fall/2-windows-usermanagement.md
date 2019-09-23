@@ -36,8 +36,8 @@ Default passwords
 
 ### Explore
 
-1. Get into groups of two (One Windows)
-2. Use one computer between two people
+1. Get into groups of two
+2. Get onto the lab machine dedicated to this exercise
 3. Add a user 
 4. Change user password
 5. Remove user

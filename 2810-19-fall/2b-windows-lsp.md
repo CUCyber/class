@@ -47,8 +47,9 @@ Don't give an answer for this
 3. Edit
   * Minimum password length
   * Turn on "Audit Logon Events"
-  * Turn off "Allow log on through RDP"
+  * Turn off "Allow log on through Remote Desktop Services"
 4. Make note of other options that seem useful
+
 
 
 ### Local Security Policy

@@ -34,10 +34,16 @@ Why is it good to know what services are on your computer?
 
 
 
+## Introdduction Questions
+
+What is an example of a malicious process? A malicious service?
+
+
+
 ### Explore - Process
 
 1. Get in pairs
-2. Open Task Manager
+2. Find out how to view processes
 3. Create process `iexplore.exe` in Task Manager
 4. Open "Properties" of the process
 5. Write down the "Location" and "Size"
@@ -47,7 +53,7 @@ Why is it good to know what services are on your computer?
 
 ### Explore - Services
 
-1. Navigate to Services MSC
+1. Find out how to view services
 2. Start "Smart Card" service
 3. Stop "Smart Card" service
 4. Open "Properties" of any service
@@ -95,6 +101,67 @@ Why is it good to know what services are on your computer?
 ### How to start and stop a service
 
 ![stop-service](stop-service.png)
+
+
+### Properties of Processes
+
+* Process name
+* Owner
+* Image
+* Memory
+
+Note:
+What are each of these properties?
+
+
+
+### SVCHost
+
+* ServiceHost
+* Share process to reduce resource consumption
+* Runs a DLL
+
+Note:
+* What's a DLL?
+
+
+
+### PowerShell Exercise
+
+* Get into pairs
+* Using PowerShell
+  1. List processes (and all properties 😉)
+  2. Create a process (iexplore.exe)
+  3. Stop a process
+
+Note:
+* What are the advantages of using PowerShell?
+
+
+
+### PowerShell
+
+* `Get-Process | select *`
+* `Stop-Process`
+* `Start-Process`
+
+
+
+### Properties of a Service
+
+* Name
+* ServiceName
+* StartType (manual, automatic)
+
+
+
+### PowerShell Exercise
+
+* Get into pairs
+* Using PowerShell
+  1. List services (and all properties 😉)
+  2. Start a service
+  3. Stop a service
 
 
 

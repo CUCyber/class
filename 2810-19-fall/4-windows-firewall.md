@@ -3,15 +3,22 @@
 CPSC 2810
 
 
-### Introduction Questions
-
-What is a firewall?
-
-
 
 ### Introduction Questions
 
 What is a port?
+
+
+
+### Introduction Questions
+
+What is the purpose of a firewall?
+
+
+
+### Introduction Questions
+
+Why is a firewall useful?
 
 
 
@@ -52,6 +59,14 @@ What is a port?
 
 
 
+### Public vs Private
+
+* Windows sets connections to either public and private
+* Public - Starbucks
+* Private - Home
+
+
+
 ### Firewall
 
 * Specifies which ports the computer is allowed to communicate over
@@ -64,7 +79,21 @@ What is a port?
 
 * CLI tool to reset firewall
 * Done before setting up rules
-* `netsh.exe firewall reset`
+* `netsh advfirewall reset`
+
+
+### PowerShell
+
+
+
+### PowerShell
+
+```powershell
+New-NetFirewallRule -DisplayName "Block Outbound Port 80" -Direction Outbound -LocalPort 80 -Protocol TCP -Action Block
+```
+
+Note:
+If there is time leftover, get them to do the same lab, but using PS. Remember to reset the firewall or else the same rule will stick
 
 
 

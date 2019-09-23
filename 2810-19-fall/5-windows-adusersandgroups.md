@@ -28,11 +28,11 @@ This is where beginner Windows cyberdefense competitors differ from advanced Win
 ### Explore
 
 1. Get into pairs
-2. Disable malicious user
-3. Add user for each member in your pair
-4. Reset password for Administrator
-5. Create new group called "Blue Team"
-6. Add your users to the group
+2. Add user for each member in your pair
+3. Reset password for Administrator
+4. Create new group called "Blue Team"
+5. Add your users to the group
+6. Remove both users
 
 
 
@@ -52,29 +52,59 @@ This is where beginner Windows cyberdefense competitors differ from advanced Win
 * Allows workstations to use SSO
 
 
+
 ### How to Add User to AD
+
+![add user 0](add_user_0.png)
+
+
+
+### How to Add User to AD
+
+![add user 1](add_user_1.png)
 
 
 
 ### How to Remove User From AD
 
+![remove user](remove_user.png)
+
 
 
 ### How to Reset Password
+
+![reset](reset_user_0.png)
+
+
+
+### How to Reset Password
+
+![reset](reset_user_1.png)
 
 
 
 ### How to Create Group
 
+![create](create_group.png)
+
 
 
 ### How to Add User to Group
+
+![add](user_to_group_0.png)
+
+
+
+### How to Add User to Group
+
+![add](user_to_group_1.png)
 
 
 
 ### Organization of Items in AD
 
 ![ous](ous.png)
+
 
 
 ### Leaf Items in AD
@@ -89,6 +119,17 @@ This is where beginner Windows cyberdefense competitors differ from advanced Win
 * Organizational Unit - Container for assigning permissions of any leaf node
 * Domain - Domain that people are allowed to sign into
 * Forest - Group of Domains
+
+
+### PowerShell Lab
+
+1. Get into pairs
+2. Add user for each member in your pair
+3. Reset password for Administrator
+4. Create new group called "Blue Team"
+5. Add your users to the group
+6. Remove both users
+
 
 
 ## Questions?
