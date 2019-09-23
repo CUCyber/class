@@ -8,9 +8,6 @@ CPSC 2810
 
 How are servers different than workstations?
 
-Note:
-Servers run services
-
 
 
 ### Introduction Questions
@@ -25,34 +22,141 @@ What is a role on Windows Server?
 
 
 
-### Introduction Questions
-
-How would a sysadmin manage LSP for 1,000 workstations?
-
-
-
 ### Explore
 
 1. Get into pairs
-2. Add Web Server role
-3. Create a password policy for all users
-4. Disable Guest accounts
-5. Enforce policy
+2. Roles
+  * Add Web Server role
+  * Change the website
 
 
 
 ### How to add IIS role
 
-![iis](iis.png)
+![add iis](add_iis_0.png)
+
+
+
+### How to add IIS role
+
+![add iis](add_iis_1.png)
+
+
+
+### How to add IIS role
+
+![add iis](add_iis_2.png)
+
+
+
+### How to add IIS role
+
+![add iis](add_iis_3.png)
+
+
+
+### How to add IIS role
+
+![add iis](add_iis_4.png)
+
+
+
+### How to add IIS role
+
+![add iis](add_iis_5.png)
+
+
+
+## What are Roles?
+
+* Web server
+* Database
+* File server
+* DNS/DHCP/SMTP 
+
+Note:
+That's it. This is a small lecture. Continue on to the next slides
+
+
+
+### Introduction Questions
+
+What privileges would a developer need that an accountant wouldn't need and vice-versa?
+
+
+### Introduction Questions
+
+When would it be useful to have inheritance for Security Policies?
+
+
+
+## Explore
+
+1. Get into groups
+2. Create two users
+3. Put users into a group
+4. Create a new GPO
+5. Scope the GPO to the group
+6. Edit Policy
+  * Create a password policy for all users
+  * Disable Guest accounts
+7. Enforce policy
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_0.png)
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_1.png)
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_2.png)
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_3.png)
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_4.png)
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_5.png)
+
+
+
+### How to Manage Group Policy
+
+![gp](add_gp_6.png)
 
 
 
 ### Group Policy
 
-* Group Policy can be applied to specific OUs
-* Multiple Group Policies
-* "Enforcing" a policy
-* Policies are not enforced until they are told to
+* LSP but cooler
+* Applied to an OU, Domain, Site, Group, or User
+* Inheritance
+
+
+
+### Why Permissions are Important
+
+![bloodhound](bloodhound.png)
 
 
 
