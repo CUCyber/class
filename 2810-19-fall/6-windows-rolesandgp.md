@@ -45,12 +45,6 @@ What is a role on Windows Server?
 
 ### How to add IIS role
 
-![add iis](add_iis_2.png)
-
-
-
-### How to add IIS role
-
 ![add iis](add_iis_3.png)
 
 
@@ -82,6 +76,7 @@ That's it. This is a small lecture. Continue on to the next slides
 ### Introduction Questions
 
 What privileges would a developer need that an accountant wouldn't need and vice-versa?
+
 
 
 ### Introduction Questions
