@@ -18,7 +18,7 @@ I.E. Changing directories, moving, deleting, and editing files?
 
 ### Introduction Questions
 
-Who knows how to list and interpret Linux file and directoriy permissions?
+Who knows how to list and interpret Linux file and directory permissions?
 
 
 ### Introduction Questions
@@ -31,19 +31,20 @@ Why is it important to have good file permissions in a multi-user system?
 In what ways do you think Windows Powershell and the Linux command line are the same? 
 
 
-
 ## Activity
 
-* Get into pairs
+* Open Canvas and navigate to the quiz so you can check your answers (NOT ACTUALLY A QUIZ)
 * There are (X number) of flags on the system in the format `2810{...a_message...}`
 * Find them all and record the messages inside
-
+* You may work in pairs
 
 
 ## What is the command line?
 
 * Windows uses primarily the GUI
 * Linux users live in the command line (or at least you will)
+
+![](cli.gif)
 
 
 ## What is the Linux command line?
@@ -59,17 +60,6 @@ Windows dumps you on the desktop and expects you to open applications first.
 Linux dumps you in your folder and expects you to find the folder you want to work on first.
 
 
-## What is the Linux command line?
-
-![](cli.png)
-
-
-## What is the Linux command line?
-
-![](tui.png)
-
-
-
 ## How do I know what commands I can use?
 
 * `help` - What commands can I run?
@@ -83,13 +73,15 @@ Linux dumps you in your folder and expects you to find the folder you want to wo
   - `echo $PATH`
 
 
+
 ## Navigating the Filesystem
 
-cd - Change directory
-ls - List directory
-less - View a file
-nano - Edit a file
-
+* cd - Change directory
+* ls - List directory
+* less - View a file
+* nano - Edit a file
+* pwd - Get the current directory
+* find - Search for a file
 
 
 ## Arguments
@@ -99,6 +91,13 @@ nano - Edit a file
   - `ls`
   - `ls -l`
 * You can find a list of arguments in the man page (`man ls`)
+
+
+## Pipes
+
+Pipes allow us to use the output of one program as the input for another
+
+![](pipes.png)
 
 
 ## Hidden Files
@@ -111,6 +110,44 @@ nano - Edit a file
 Note:
 There is nothing inheritely special about hidden files. They're just files or folders with a period in front of them
 
+
+
 ## Permissions
 
->:(
+We can change the permissions of a file with the chmod and chown commands
+
+![](permissions_ugo.png)
+
+
+### Chmod
+
+"Change [Permission] Mode"
+
+```
+chmod <perms> <filename>
+chmod 750 CUCyber_Doc.pdf
+```
+
+<img src="permissions_matrix.png" style="width:50%">
+
+
+### Chown
+
+"Change Owner"
+
+```
+chown <user>:<group> <filename>
+chown weston:cucyber CUCyber_Doc.pdf
+```
+
+![](permissions_ugo.png)
+
+
+### Permissions Quiz (Q1)
+
+What are the chmod and chown commands to set the permissions for this file?
+
+```
+$ ls -lah
+-rw-rw-r--. 1 weston weston 1.8K Oct  7 14:37 6-windows-rolesandgp.md
+```
