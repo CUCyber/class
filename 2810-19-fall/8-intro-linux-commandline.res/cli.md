@@ -1,3 +1,4 @@
+<a href="index.html"><-- back</a>
 # Terminal Instructions
 
 ## Booting your Lab

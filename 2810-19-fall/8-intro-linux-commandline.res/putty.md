@@ -1,3 +1,4 @@
+<a href="index.html"><-- back</a>
 # Putty Instructions
 
 ## Booting your Lab
