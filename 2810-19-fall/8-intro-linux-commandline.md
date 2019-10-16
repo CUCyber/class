@@ -31,12 +31,16 @@ Why is it important to have good file permissions in a multi-user system?
 In what ways do you think Windows Powershell and the Linux command line are the same? 
 
 
+
 ## Activity
 
-* Open Canvas and navigate to the quiz so you can check your answers (NOT ACTUALLY A QUIZ)
-* There are (X number) of flags on the system in the format `2810{...a_message...}`
+* There are 6 flags on the system in the format `2810{...a_message...}`
 * Find them all and record the messages inside
 * You may work in pairs
+* The is an (ungraded) quiz on canvas where you can check your answers
+
+Connection instructions at <br>http://linux-intro.vm.cucyber.net/
+
 
 
 ## What is the command line?
