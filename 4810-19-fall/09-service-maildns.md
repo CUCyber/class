@@ -11,17 +11,33 @@ What is DNS?
 
 ### Introduction Questions
 
+Who is in charge of all domains and subdomains?
+
+
+
+### Introduction Questions
+
+What is a recursive DNS server?
+
+
+
+### Introduction Questions
+
 Has anyone set up a mailserver?
 
 
 
 ### Explore
 
-1. Use `dig` to query <host>
-  * Find the IP for lab.local
-  * Find the TXT record for lab.local
-  * Pull the entire list of records for .local
-2.
+1. On the server
+  1. Install BIND9
+  2. Create "example.com" zone
+  3. Create 2 A records
+  4. Add TXT record
+  4. Allow zone transfers from any computer
+2. On your computer
+  * Find the A record
+  * Pull the entire list of records
 
 
 
@@ -136,11 +152,6 @@ Retype new password: password
 Note:
 * Why is this a better way of storing passwords?
 
-
-
-### Postifx Configuration
-
-* Who knows
 
 
 ## Questions?

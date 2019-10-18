@@ -36,7 +36,7 @@ How does a custom webapp differ from Apache or Nginx?
 
 ### Explore
 
-1. Get into groups of two
+1. Navigate to 10.0.129.144:80 and 10.0.129.144:8000
 2. Given two websites, identify which is Apache and which is custom
 3. Find a backdoor in the Apache
 
