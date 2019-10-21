@@ -32,17 +32,58 @@ Who knows how to create and enforce a password policy on Linux?
 
 ## Activity
 
-* Get into pairs
-* List all users on the system that begin with the letter "r"
-* List all of the groups that the user "ryan" is a part of.
-* Add a user named "frederick and set his password to "freder1ck-r0cks"
+1. List all users on the system that begin with the letter "r"
+2. List all of the groups that the user "ryan" is a part of.
+3. Add a user named "frederick and set his password to "freder1ck-r0cks"
+
+
+## Activity Solutions
+
+1. List all users on the system that begin with the letter "r"
+
+```
+grep ^r /etc/passwd
+```
+
+
+## Activity Solutions
+
+2. List all of the groups that the user "ryan" is a part of.
+
+```
+groups ryan
+```
+
+
+## Activity Solutions
+
+3. Add a user named "frederick and set his password to "freder1ck-r0cks"
+
+```
+useradd -m frederick -s /bin/bash
+passwd frederick
+```
 
 
 
-## Users
+## Passwords
 
 
-### Where does the system store users?
+### How to change a password
+
+To change the password for a user we use the passwd utility.
+
+Change the password of the current user:
+
+```
+cucyber@localhost$ passwd
+```
+
+Change the password of another user:
+
+```
+root@localhost# passwd cucyber
+```
 
 
 ### Where does the system store users?
@@ -75,6 +116,13 @@ Who knows how to create and enforce a password policy on Linux?
 
 Note: 
 An easy way to check if a user has a password set is to take a peek at the encrypted password field of /etc/shadow
+
+
+## Where are the passwords for users stored?
+
+What should the permissions for /etc/shadow be?
+
+
 
 ## Adding and Removing Users
 
