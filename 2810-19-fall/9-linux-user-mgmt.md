@@ -1,4 +1,4 @@
-## Introduction to Linux and the Linux Command Line
+## Linux Users and Groups
 
 CPSC 2810
 
