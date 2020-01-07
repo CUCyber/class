@@ -108,7 +108,7 @@ ufw default <allow|deny|reject> [incoming|outgoing|routed]
 
 ### UFW Default Rule Example
 
-``
+```
 1. $ ufw default deny outgoing
 2. $ ufw default allow incoming
 ```
