@@ -13,6 +13,13 @@ In this repository are the markdown sources to presentations given by the cybers
 * python-watchdog (optional; for automatic rebuilding on presentation change)
 
 
+### Get Repository 
+
+```sh
+$ git clone https://github.com/CUCyber/class.git
+```
+
+
 ### Debian/Ubuntu/Kali
 
 ```sh
@@ -55,7 +62,7 @@ $ sudo emerge dev-vcs/git dev-python/watchdog
 Requires [Homebrew](https://brew.sh/). Use `gmake` instead of `make`.
 
 ```sh
-$ brew install make git rsync python3
+$ brew install make git rsync python3 wget
 $ pip3 install watchdog
 ```
 
