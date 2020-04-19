@@ -13,7 +13,7 @@ SERVE=serve.py
 WEBSITE=../website
 SITE=
 
-SOURCES!=find * \( -path '*.res' -o -path 'reveal.js' -o -path "$(OUTDIR)" -o -path 'misc/homework' \) -prune -o -type f -name '*.md' -a -not \( -name 'LICENSE.md' -o -name 'README.md' \) -print
+SOURCES!=find * \( -path '*.res' -o -path 'reveal.js' -o -path 'resources' -o -path "$(OUTDIR)" \) -prune -o -type f -name '*.md' -a -not \( -name 'LICENSE.md' -o -name 'README.md' \) -print
 
 all: $(OUTDIR)$(ROOT) $(OUTDIR)$(ROOT)reveal
 

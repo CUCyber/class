@@ -1,9 +1,6 @@
 [submodule "reveal.js"]
 	path = reveal.js
 	url = https://github.com/hakimel/reveal.js.git
-[submodule "4810-19-fall/4810-19-fall/09-service-maildns.res/roles/ansible-role-bind"]
-	path = 4810-19-fall/4810-19-fall/09-service-maildns.res/roles/ansible-role-bind
-	url = https://github.com/bertvv/ansible-role-bind
-[submodule "4810-19-fall/09-service-maildns.res/roles/ansible-role-bind"]
-	path = 4810-19-fall/09-service-maildns.res/roles/ansible-role-bind
-	url = https://github.com/bertvv/ansible-role-bind
+[submodule "resources/4810-19-fall/09-service-maildns/roles/ansible-role-bind"]
+	path = resources/4810-19-fall/09-service-maildns/roles/ansible-role-bind
+	url = https://github.com/bertvv/ansible-role-bind.git
