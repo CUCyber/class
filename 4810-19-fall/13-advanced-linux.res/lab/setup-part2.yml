@@ -11,7 +11,7 @@
       owner: root
       group: root
       mode: '0777'
-  
+
   - name: Start badware
     shell: nohup /tmp/hiddentest  </dev/null >/dev/null 2>&1 &
 
