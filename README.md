@@ -9,8 +9,8 @@ In this repository are the markdown sources to presentations given by the cybers
 * make
 * git
 * rsync
-* python
-* python-watchdog (optional; for automatic rebuilding on presentation change)
+* python3
+* python3-watchdog (optional; for automatic rebuilding on presentation change)
 
 
 ### Get Repository 
@@ -31,7 +31,7 @@ $ sudo apt install make git rsync python3 python3-watchdog
 
 ```sh
 $ sudo yum install epel-release
-$ sudo yum install make git rsync python34
+$ sudo yum install make git rsync python36
 $ sudo pip3 install watchdog
 ```
 
